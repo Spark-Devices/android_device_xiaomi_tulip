@@ -18,6 +18,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := false
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
