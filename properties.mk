@@ -235,14 +235,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.sta_detect=true \
     ro.vendor.sensors.mot_detect=true
 
-# System
-persist.sys.binary_xml=false
-
-#Spark-OS
-ro.spark.device.name=Redmi Note 6 Pro
-ro.spark.group.url=https://t.me/spark_tulip
-ro.spark.maintainer=Julival Bittencourt
-ro.spark.maintainer.username=bittencourtjulival
+#System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
 
 # System Restart
 PRODUCT_PROPERTY_OVERRIDES += \
